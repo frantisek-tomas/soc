@@ -1,0 +1,142 @@
+.footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    background-image: url(/src/commonest/img/footer-bg.jpg);
+}
+hr{
+    border-color: #0cb8b6;
+}
+h2{
+    color: #0cb8b6;
+}
+.icons{
+    width: 20px;
+}
+.section-1 {
+    flex: 25%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 50px 150px 150px;
+
+}
+.section-2 {
+    flex: 25%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 50px 150px 100px;
+}
+.section-3 {
+    flex: 25%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 50px 150px 100px;
+}
+.section-4 {
+    flex: 20%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 150px 150px 100px;
+}
+.logos{
+    width: 150px;
+}
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section-1 {
+        height: 150px;
+        padding: 10px;
+        text-align: center;
+        margin: 50px 25px 25px 25px;
+    }
+    .section-2 {
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+        margin: 50px 25px 25px 25px;
+    }
+    .section-3 {
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+        margin: 50px 25px 25px 25px;
+    }
+    .section-4 {
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+        margin: 50px 100px 40% 100px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section-1 {
+        margin: 0px 25px 50px 25px;
+    }
+    .section-2 {
+        margin: 0px 25px 100px 25px;
+    }
+    .section-3 {
+        margin: 0px 25px 50px 25px;
+    }
+    .section-4 {
+        margin: 0px 25px 50px 25px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+    .section-1 {
+        height: 50%;
+        margin: 0;
+    }
+    .section-2 {
+        height: 50%;
+        margin: 0;
+    }
+    .section-3 {
+        height: 50%;
+        margin: 0;
+    }
+    .section-4 {
+        height: 50%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+    .section-1 {
+        height: 100%;
+        margin: 0;
+    }
+    .section-2 {
+        height: 100%;
+        margin: 0;
+    }
+    .section-3 {
+        height: 100%;
+        margin: 0;
+    }
+    .section-4 {
+        height: 100%;
+        margin: 0;
+    }
+}

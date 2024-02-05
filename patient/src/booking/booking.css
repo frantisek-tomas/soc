@@ -1,0 +1,430 @@
+.booking {
+  min-height: calc(100vh - 287px - 64px);
+  margin: 100px 15% 0 15%;
+}
+.booking-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.header {
+  text-align: center;
+  color: #0cb8b6;
+}
+.p-booking {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.div-name {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.b-div-name,
+.b-div-date,
+.b-div-number {
+  margin-bottom: 12px;
+}
+.div-others {
+  width: 100%;
+}
+.div-footer-b {
+  margin-top: 75px;
+}
+.button-send-calendar:hover {
+  background-color: #0cb8b6;
+}
+.b-div-h1 {
+  color: #0cb8b6;
+}
+.app {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 30%;
+}
+.selected-date {
+  margin: 0 auto;
+}
+.times button {
+  display: block;
+  background-color: #6f48eb;
+  color: white;
+  margin-top: 5px;
+}
+.times {
+  text-align: center;
+  margin: 25px 300px 0px 200px;
+}
+.time-div {
+  display: inline-block;
+  padding: 10px 5px 30px 5px;
+  vertical-align: middle;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .booking {
+    margin: 100px 2% 0 2%;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  .booking {
+    margin: 100px 5% 0 5%;
+  }
+}
+@media (min-width: 961px) and (max-width: 1280px) {
+  .booking {
+    margin: 100px 8% 0 8%;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1920px) {
+  .booking {
+    margin: 100px 13% 0 13%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.react-calendar__navigation__next2-button {
+  display: none;
+}
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.react-calendar {
+  width: 1100px;
+  max-width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.react-calendar__navigation button {
+  color: white;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background-color: #0cb8b6;
+  color: white;
+}
+.react-calendar__navigation button:enabled:hover {
+  background-color: #001430;
+  color: white;
+}
+.react-calendar__navigation button[disabled] {
+  background-color: #001430;
+  color: white;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+.react-calendar__month-view__days > .react-calendar__tile,
+.react-calendar__month-view__weekdays__weekday {
+  flex-basis: 20% !important;
+  max-width: 20% !important;
+}
+
+.react-calendar__month-view__weekdays__weekday:nth-child(6),
+.react-calendar__month-view__weekdays__weekday:nth-child(7) {
+  display: none !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  display: none !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75);
+}
+.react-calendar__month-view__days__day--weekend {
+  color: black;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: black;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  background: none;
+}
+.react-calendar__tile:disabled {
+  background-color: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--now {
+  background-color: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--hasActive {
+  background: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--active {
+  background: #0cb8b6;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #0cb8b6;
+  color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #0cb8b6;
+  color: white;
+}
+
+.times button {
+  background-color: #001430;
+  border: none;
+  padding: 8px 10px;
+  color: white;
+}
+
+.times button:hover {
+  background-color: #001430;
+  color: white;
+}
+
+.times button:active {
+  background-color: #001430;
+  color: white;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  bottom: disable;
+}
+
+.react-calendar__tile {
+  color: black;
+}
+.react-calendar__month-view__days__day {
+  color: black;
+}
+
+.info {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0cb8b6;
+}
+
+.button-send-calendar {
+  background-color: #0cb8b6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 110px;
+  height: 50px;
+  font-size: 16px;
+  margin: 40px 0 0 74%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.react-calendar__tile--now {
+  color: white;
+}
+.react-calendar__tile--active {
+  color: white;
+}
+
+.react-calendar .react-calendar__month-view__days .react-calendar__tile--now {
+  box-shadow: inset 0 0 0 2px #0cb8b6;
+  background-color: white;
+  color: black;
+}
+.react-calendar .react-calendar__month-view__days .react-calendar__tile:hover,
+.react-calendar .react-calendar__month-view__days .react-calendar__tile:active {
+  background-color: #0cb8b6;
+  color: white;
+  border: none;
+}
+.react-calendar
+  .react-calendar__month-view__days
+  .react-calendar__tile.clicked {
+  background-color: #0cb8b6;
+  color: white;
+  border: none;
+}
+.summary-modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fully-booked {
+  background-color: #ff6666 !important;
+  color: white !important;
+}
+
+/* Summary Modal Styles */
+.summary-modal-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.summary-modal-header {
+  font-size: 24px;
+  color: #0cb8b6;
+  margin-bottom: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.summary-modal-content {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.summary-modal-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.summary-modal-list-item {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #0cb8b6;
+  border-radius: 4px;
+}
+
+.summary-modal-close-btn {
+  background-color: #0cb8b6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: max-content;
+  margin: 20px auto;
+}
+
+.summary-modal-close-btn:hover {
+  background-color: #098c89;
+  transition: background-color 0.3s;
+}
+.summary-modal-close-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.summary-modal-close-x:hover {
+  color: #000;
+}
+.other-month-day {
+  color: black !important;
+
+  background-color: #f0f0f0 !important;
+}

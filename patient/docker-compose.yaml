@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  client:
+    image: uniteqlab.azurecr.io/medicity/medicity-fe:latest
+    restart: always
+    ports:
+      - '6001:80'
+volumes:
+  static:

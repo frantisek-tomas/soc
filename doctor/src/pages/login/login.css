@@ -1,0 +1,136 @@
+.login-background {
+  width: 511px;
+  height: 577px;
+  background: #bbbfca;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+}
+
+.login-header {
+  margin-top: 87px;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.login-pod-header {
+  margin-top: 8px;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.login-email {
+  margin: 25px 0 0 90px;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.email-input {
+  margin: 3px 0 0 90px;
+  width: 312px;
+  height: 50px;
+  background-color: #f4f4f2;
+  border-radius: 10px;
+  border: none;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+.email-input:focus {
+  border: none;
+  outline: none;
+}
+
+.login-password {
+  margin: 15px 0 0 90px;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.password-input {
+  margin: 3px 0 0 90px;
+  width: 312px;
+  height: 50px;
+  background-color: #f4f4f2;
+  border-radius: 10px;
+  border: none;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+.password-input:focus {
+  border: none;
+  outline: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #495464;
+}
+
+.login-forgetpassword {
+  margin: 8px 0 0 294px;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login-button {
+  margin: 20px 0 0 90px;
+  width: 332px;
+  height: 50px;
+  background-color: #495464;
+  border-radius: 10px;
+  border: none;
+  color: #f4f4f2;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.6s ease;
+}
+
+.login-button:hover {
+  background-color: #f4f4f2;
+  color: #495464;
+  transition: 0.6s ease;
+  cursor: pointer;
+}

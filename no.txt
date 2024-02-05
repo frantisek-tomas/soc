@@ -1,0 +1,3 @@
+prezentacia : https://1drv.ms/p/s!ArGOBugkvSSCgQMZfCahOKu8zY-b?e=94BQFn 
+node js : https://nodejs.org/en
+vs code : https://code.visualstudio.com/

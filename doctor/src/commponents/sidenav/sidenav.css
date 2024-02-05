@@ -1,0 +1,329 @@
+.main {
+  position: relative;
+  width: 266px;
+  height: 100vh;
+  background-color: #bbbfca;
+  margin: 0;
+  position: fixed;
+  padding: 0px 14px;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 200px);
+}
+
+.sidebar-link-btn {
+  color: #495464;
+  background-color: #f4f4f2;
+  border: 1px solid #f4f4f2;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.6s ease;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.sidebar-link-btn:hover {
+  cursor: pointer;
+  transition: 0.6s ease;
+  background: #e8e8e8;
+  border: 1px solid #495464;
+}
+
+.sidebar-link-btn.active {
+  background: #e8e8e8;
+  border: 1px solid #495464;
+}
+
+.sidebar-link-btn > img {
+  width: 28px;
+  height: 28px;
+}
+
+.sidebar-link-btn > p {
+  margin: 0px;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.active {
+}
+
+.logo {
+  height: 57px;
+  border-radius: 10px;
+  background: #f4f4f2;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.line {
+  border-color: #495463;
+  width: 100%;
+  margin-top: 25px;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+/* recipes css start*/
+
+.recipes {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  background-color: #f4f4f2;
+  border: #f4f4f2 1px solid;
+  transition: 0.6s ease;
+  margin: 118px 24px 0 23px;
+  color: #495464;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.recipes-active {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  transition: 0.6s ease;
+  margin: 118px 24px 0 23px;
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  color: #495464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.recipes:hover {
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.recipes-icon {
+  width: 27px;
+  height: 28px;
+  margin: 15px 0 0 17px;
+}
+
+.recipes-text {
+  width: 40px;
+  height: 14px;
+  margin: 20px 0 0 59px;
+  color: #495464;
+  font-family: Roboto;
+}
+
+/* recipes css end*/
+
+/* preventives css start*/
+
+.preventives {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  background-color: #f4f4f2;
+  border: #f4f4f2 1px solid;
+  transition: 0.6s ease;
+  margin: 194px 24px 0 23px;
+  color: #495464;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.preventives-active {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  transition: 0.6s ease;
+  margin: 194px 24px 0 23px;
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  color: #495464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.preventives:hover {
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.preventives-icon {
+  width: 30px;
+  height: 30px;
+  margin: 15px 0 0 14px;
+}
+
+.preventives-text {
+  color: #495464;
+  font-family: Roboto;
+}
+
+/* preventives css end*/
+
+/* messages css start*/
+
+.messages {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  background: #f4f4f2;
+  border: #f4f4f2 1px solid;
+  transition: 0.6s ease;
+  margin: 270px 24px 0 23px;
+  color: #495464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.messages-active {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  transition: 0.6s ease;
+  margin: 270px 24px 0 23px;
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  color: #495464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.messages:hover {
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.messages-icon {
+  width: 30px;
+  height: 30px;
+  margin: 15px 0 0 14px;
+}
+
+.messages-text {
+  width: 40px;
+  height: 14px;
+  margin: 20px 0 0 59px;
+  color: #495464;
+  font-family: Roboto;
+}
+
+/* messages css end*/
+
+.line-2 {
+  width: 245px;
+  height: 1px;
+  background: #495464;
+  border: 0;
+}
+
+/* settings css start*/
+
+.settings {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  background: #f4f4f2;
+  border: #f4f4f2 1px solid;
+  transition: 0.6s ease;
+}
+
+.settings-active {
+  width: 219px;
+  height: 57px;
+  border-radius: 10px;
+  transition: 0.6s ease;
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  color: #495464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.settings:hover {
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.settings-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.settings-text {
+  width: 40px;
+  height: 14px;
+  color: #495464;
+  font-family: Roboto;
+}
+
+/* settings css end*/
+
+/* logout css start*/
+
+.logout {
+  display: inline-block;
+  border-radius: 10px;
+  background: #f4f4f2;
+  border: #f4f4f2 1px solid;
+  transition: 0.6s ease;
+}
+
+.logout:hover {
+  background: #e8e8e8;
+  border: #495464 1px solid;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.logout-icon {
+  width: 21px;
+  height: 21px;
+  margin: 18px 0 0 20px;
+}
+
+.logout-text {
+  width: 90px;
+  height: 14px;
+  margin: 20px 0 0 59px;
+  color: #495464;
+  font-family: Roboto;
+}
+
+/* logout css end*/
+@media (min-width: 0px) and (max-width: 600px) {
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+  .line-2 {
+    margin: 480px 11px 0 10px;
+  }
+  .settings {
+    margin: 500px 24px 0 23px;
+  }
+  .logout {
+    margin: 600px 24px 0 23px;
+  }
+}

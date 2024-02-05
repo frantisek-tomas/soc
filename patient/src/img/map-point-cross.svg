@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0cb8b6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <circle class="cls-1" cx="32" cy="32" r="32"/>
+      <g>
+        <path class="cls-2" d="M44.52,28C44.52,37.13,32,48.13,32,48.13S19.48,37.13,19.48,28A12.34,12.34,0,0,1,32,15.87,12.34,12.34,0,0,1,44.52,28Z"/>
+        <g>
+          <line class="cls-2" x1="32" y1="22.07" x2="32" y2="34.07"/>
+          <line class="cls-2" x1="38" y1="28.07" x2="26" y2="28.07"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

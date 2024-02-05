@@ -1,0 +1,24 @@
+.link {
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+}
+.link-active {
+    text-decoration: underline;
+    color: #0cb8b6;
+    padding-right: 25px;
+    font-weight: bold;
+}
+.logo-img{
+    width: 180px;
+    padding-top: 8px;
+    
+}
+.img{
+    width: 100px;
+}
+.drawer-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

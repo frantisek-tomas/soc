@@ -1,0 +1,115 @@
+.recipe{
+    min-height: calc(100vh - 400px - 50px);
+    margin: 100px 30% 0 30%;
+}
+.header-about{
+    color:#0cb8b6;
+    text-align: center;
+}
+.recipe-name-input{
+    width: 100%;
+    background-color: #f2f9fc;
+}       
+.recipe-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+.birth-text{
+    width: 99.5%;
+    background-color: #f2f9fc;
+}
+.phone-text{
+    width: 99.5%;
+    background-color: #f2f9fc;
+}   
+.recipe-grid2{
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    margin-bottom: 10px;
+}
+.phone-div-recipe{
+    margin-left: 2%;
+}
+.input-medication{
+    width: 98.5%;
+    background-color: #f2f9fc;
+}
+.input-number{
+    width: 100%;
+    background-color: #f2f9fc;
+}
+.button-delete{
+    height: 35px;
+    margin: 10px 0 0 0;
+    color: red;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+.button-delete:hover{
+    color: rgb(255, 89, 89);
+}
+.buttons-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.button-add{
+    background-color: #0cb8b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 110px;
+    height: 50px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-send{
+    background-color: #0cb8b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 110px;
+    height: 50px;
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.button-send:hover{
+    cursor: pointer;
+}
+.div-footer{
+    margin-top: 100px;
+}
+.div-respon{
+    font-size: 18px;
+}
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .recipe{
+        margin: 100px 5% 0 5%;
+    }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+    .recipe{
+        margin: 100px 12% 0 12%;
+    }
+}
+@media (min-width: 961px) and (max-width: 1280px) {
+    .recipe{
+        margin: 100px 18% 0 18%;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1920px) {
+    .recipe{
+        margin: 100px 24% 0 24%;
+    }
+}

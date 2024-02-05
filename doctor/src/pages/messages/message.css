@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+}
+.messages-table {
+  border-top: 1px solid #495464;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.button-message {
+  width: 100px;
+  height: 23px;
+  border-radius: 5px;
+  background: #bbbfca;
+  border: none;
+  transition: 0.3s ease;
+}
+.button-message:hover {
+  background-color: #495464;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.button-delete {
+  width: 50px;
+  height: 23px;
+  border-radius: 5px;
+  background: #bbbfca;
+  border: none;
+}
+.button-delete:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.message-header {
+  position: absolute;
+  color: #495464;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 105px;
+  height: 37px;
+  margin: 34px 0 0 370px;
+}
+
+.lime {
+  color: lime;
+}
+
+.blue {
+  color: blue;
+}
+
+.delete-icon {
+  width: 21px;
+  height: 21px;
+}
+
+.delete-text {
+  text-align: center;
+}

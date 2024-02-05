@@ -1,0 +1,1 @@
+docker-compose down -v && az acr login --name uniteqlab && docker-compose pull && docker-compose up -d
